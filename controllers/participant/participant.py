@@ -17,7 +17,7 @@ robot.getDevice("motor.left").setPosition(target)
 robot.getDevice("motor.right").setPosition(target)
 
 # Run the simulation for 10 seconds
-robot.step(10000)
+robot.step(900)
 
 # This is the simplest controller that works for this competition
 # If you want to experiment with more complex functions, you can read the programming guide here:
